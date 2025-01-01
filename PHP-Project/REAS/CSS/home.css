@@ -1,0 +1,89 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+	
+}
+#home {
+    cursor: default;
+	position: relative;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: center;
+	text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.ytimg.com/vi/DWgHqumUA8U/maxresdefault.jpg);
+    height:650px
+}
+#home .content {
+	padding-top: 140px;
+	width: 100%;
+}
+#home .content h1 {
+    display: inline-block;
+    padding: 10px;
+    /* border-radius: 10px; */
+	font-size: 50px;
+	margin: 5px 0;
+	border-bottom: 1px solid white;
+	color: white;
+}
+#home .content p {
+	width: 50%;
+    border-radius: 10px;
+	margin: auto;
+	color:#ff0077;
+    font-weight: bolder;
+	font-size: 20px;
+}
+
+#about, #portfolio, #contact {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 80vh;
+	background-color:gainsboro;
+
+}
+.content {
+	width: 80%;
+}
+.content h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.content p {
+	font-size: 24px;
+	line-height: 50px;
+}
+.button {
+  cursor: pointer;
+  background-color:transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #7e003b;
+  color: white;
+  border: 1px solid #7e003b;
+}
+
+.columnp {
+	float: left;
+	width: 50%;
+	padding: 60px;
+	padding-left: 100px;
+	height: 427px; /* Should be removed. Only for demonstration */
+  }
+  
+  

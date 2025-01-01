@@ -1,0 +1,70 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+#home ,#Reviews, #branches, #orders, #Admins {
+background-color: white;
+overflow-y:scroll;
+width: 100%;
+height: 100vh;
+padding-left: 90px;
+}
+#branches{
+  background-color: #282828;
+}
+#admins{
+  background-color: #282828;
+}
+#home .content{
+  padding-left: 40px;
+  padding-top: 80px;
+}
+#home .content a{
+  color: white;
+}
+#home .content a:hover{
+  color: rgb(198, 183, 183);
+}
+.content {
+  margin-left: 160px;
+	width: 80%;
+	height: 100%;
+	padding: 15px 0;
+}
+.content h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.content p {
+	font-size: 24px;
+	line-height: 50px;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  left: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 26.5vh;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:  white;
+  display: block;
+}
+
+.sidenav a:hover {
+  transition: 0.3s;
+  opacity: 1;
+  color: #7e003b;
+}
